@@ -5,7 +5,7 @@ run-name: ${{ github.actor }} initiated Codecov
 on:
   push:
     branches:
-      - debug
+      - main
   workflow_dispatch:
       
 jobs:
