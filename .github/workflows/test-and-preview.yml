@@ -53,5 +53,6 @@ jobs:
         - name: Send to Codecov
           uses: codecov/codecov-action@v3.1.1
           with:
-            files: ./results.json
-            flags: "Everything"
+            directory: ./
+            files : results.json
+            flags: e2etests
