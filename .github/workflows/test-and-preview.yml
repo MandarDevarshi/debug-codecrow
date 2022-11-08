@@ -35,12 +35,11 @@ jobs:
             
         - name: Run Playwright Tests
           continue-on-error: true
-          run: npm --verbose run coverage
+          run: npm run test
 
         - name: Convert E2E Report to Coverage Report
           run : |
             npm install playwright-e2e-coverage-report
-            touch e2eresults.json
             node ./tests/reportConvertor.js
 
         - name: Upload Artifact 
