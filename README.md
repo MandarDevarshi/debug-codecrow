@@ -32,7 +32,7 @@
 
 ## Developing
 
-Once you've forked and cloned the project:
+Once you have forked and cloned the project:
 
 ```sh
 # Install dependencies 
